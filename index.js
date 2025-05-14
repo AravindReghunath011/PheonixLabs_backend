@@ -5,6 +5,8 @@ const userRoutes = require("./routes/userRoutes");
 const authRoutes = require("./routes/authRoutes");
 // Initialize express app
 const app = express();
+const dotenv = require('dotenv')
+dotenv.config()
 
 // Connect to MongoDB
 connectDB();
